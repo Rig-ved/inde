@@ -1,6 +1,7 @@
 let resetIcon=()=> {
     document.getElementById('pointer').classList.remove('pull-right','pull-left')
     document.getElementById('pointer').classList.add('pull-left')
+    document.getElementById('1').click()
     // Handle the css for the bar 
     // TODO
 }
