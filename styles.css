@@ -1,0 +1,149 @@
+.background {
+    
+    
+    background: url('https://fsb.zobj.net/crop.php?r=zafNvrqVf-xIpPjiRh1jxTllueYfoNou50z4EejLoLjxi4nHvpry-u-yj3uG5sdAemrhoZBCri5-KoLHuLUS_qOwrkl0NMyhycHvnk8ZGVmcDjLJCK1S3ghvJO4oTn7ofXzXg7VUAvMGgq0OYl96cm94oy1nbOcmyrMVfP5-Kt85EOe-F7-9flxa6XvOzvRUtU_UdVhxdaqNuY82') no-repeat;
+    min-height: 100%;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+* {
+	outline: none;
+}
+
+button:active {
+    outline: none;
+}
+
+.red-fill{
+    background-color: #cb0000;
+}
+.text-red {
+    color:#cb0000;
+    font-size: 8px;
+    font-weight: bolder;
+}
+@font-face {
+    font-family: myFont;
+    src: url(BeautifulEveryTime.ttf);
+ }
+.text-font {
+    font-size: 35px;
+    font-family: myFont;
+}
+.font-18 {
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
+.circle {
+    height: 80px;
+    width: 80px;
+    background-color:white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    cursor:pointer
+   
+}
+
+.icon-active
+{
+   
+    background-color:aqua;
+   
+   
+}
+.circle:visited{  
+
+    background-color:aqua;
+
+}
+
+.button {
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: transparent; 
+    width: 130px; 
+    color: #3498db; 
+    padding:5px;
+    position: relative;
+  
+    
+    
+}
+
+
+.arrow {
+    width:3px;
+    position: absolute;
+    top:45%
+}
+.size-30 {
+   padding-top: 30%;
+   width:24px
+}
+.cross {
+    width:5px;
+    position:absolute;
+}
+.calc-padding-1 {
+    top: 52%;
+    left: 50%;
+}   
+
+.calc-padding-2 {
+       
+    top: 45%;
+    left: 44%;
+} 
+.btn-group {
+    height: 24px;
+    -webkit-appearance: none;
+    margin: 6px 0;
+    width: 80%;
+    padding: 5px;
+    background: whitesmoke;
+    border-radius: 20px;
+    z-index:1
+}
+.btn-secondary {
+    background-color: #cb0000!important;
+    width: 75%;
+    height: 10px;
+    border: 3px solid whitesmoke;
+    
+}
+.btn-secondary:nth-child(2n+1) {  
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .range-labels {
+    padding: 0;
+    list-style: none;
+    
+  }
+
+  .labels-container {
+      width:75%
+  }
+  #pointer  {
+   
+    height: 17px;
+    width: 11px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+  }
+ .pull-left {
+     margin-right:45%
+ }
+ .pull-right {
+     margin-right: -45%;
+ }

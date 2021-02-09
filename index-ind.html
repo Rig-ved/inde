@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body class="background" onload=resetIcon()>
+    <section>
+        <header>
+            <div class="navbar red-fill">
+
+            </div>
+        </header>
+    </section>
+
+    <!-- Content -->
+    <section>
+        <div class="col-md-6 mx-auto text-center mt-4">
+            <span class="text-white text-font"> RESULT OF THE TEST </h1>
+        </div>
+    </section>
+    
+    <section class="mt-5">
+            <div class="col-md-8 mx-auto text-center mt-3 icons">
+
+                <span class="mr-3 m-1">
+                    <div class="circle" onclick="selected(this)">
+                        <img class="size-30" src="assets/calendar1.png" alt="" width=""/>
+                        <div>
+                            <span class="text-red">Never</span>
+                        </div>
+                    </div>
+                </span>
+                <span class="mr-3 m-1">
+                    <div class="circle" onclick="selected(this)">
+                        <img class="size-30" src="assets/calendar1.png" alt="" width=""/>
+                        <img class="cross calc-padding-1" src="assets/cross.png" alt="" width=""/>
+                        <img class="cross calc-padding-2" src="assets/cross.png" alt="" width=""/>
+                        <div>
+                            <span class="text-red">Occasionally</span>
+                        </div>
+                    </div>
+                </span>
+                <span class="mr-3 m-1">
+                    <div class="circle pt-1" onclick="selected(this)">
+                        <img src="assets/hours.png" alt="" width="27px" style="padding-top: 23%;"/>
+                        <div>
+                            <span class="text-red">4 hours</span>
+                        </div>
+                    </div>
+                </span>  
+                <span class="mr-3 m-1">
+                    <div class="circle pt-1" onclick="selected(this)">
+                        <img class="size-30" src="assets/shapes.png" alt="" width=""/>
+                        <div>
+                            <span class="text-red">Yearly</span>
+                        </div>
+                    </div>
+                </span>
+                <span class="mr-3 m-1">
+                    <div class="circle" onclick="selected(this)">
+                        <img  class="size-30" src="assets/calendar1.png" alt="" width=""/>
+                        <div>
+                            <span class="text-red">Never</span>
+                        </div>
+                    </div>
+                </span>
+              
+            </div>
+            <div class="col-md-8 mx-auto text-center mt-5 pt-3">
+                <section style="margin-bottom: -1%;">
+                    <img src="assets/slidericon.png" id="pointer">
+                  </section>    
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button id= "1" type="button" class="btn btn-secondary" onclick=handlePointer(this)></button>
+                    <button id ="2"type="button" class="btn btn-secondary" onclick=handlePointer(this)></button>
+                    <button id="3" type="button" class="btn btn-secondary" onclick=handlePointer(this)></button>
+                    
+                  </div>
+                
+                  
+            </div>
+
+           
+            <article class="col-md-6 mx-auto text-center range-labels font-18 text-white">
+                <span class="p-3 small">LESS RELEVANT</span> 
+                <span class="m-2 p-5 small">RELEVANT</span> 
+                <span class="p-2 small">VERY RELEVANT</span> 
+               
+            </article>
+            <article class="col-md-8 mx-auto text-center mt-5">
+                <button type="button" class="button" onclick="resetIcon()">
+                    <span class="text-light font-18 mr-5 m-2">TRY AGAIN</span>
+                    <span class="text-red ml-3">
+                        <img  class="arrow" src="assets/rightArrow.png" alt="" width=""/>
+                    </span>
+                </button>
+            </article>
+    </section>
+    <!-- Content Ends -->
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</html>
